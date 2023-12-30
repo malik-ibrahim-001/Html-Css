@@ -1,0 +1,141 @@
+html = structure
+CSS = style
+JS = Logic
+---------------------------------------------------------------------------------
+html stands for Hyper text markup language 
+----------------------------------------------------------------------
+<html>   opening tag
+</html>  closing tag
+---------------------------------
+<body> 
+h1 h2 h3  to 6 are used for headings
+   <h1>
+               </h2>
+  to <h6>  
+               </h6>
+<hr> rag line algane k liye use hota -----------------
+--------------------------------------------------------
+           HTML Text Formatting Tag
+
+tag bold krny k liye <b> </b> ye tag lage ga
+
+Italic k liye <i> </i>
+
+Underline krny k liye <u> </u> tag lage ga
+
+Strike through tag k liye <s> </s> ye tag lgane se text k ope line ajatihh (<del></del> is tag se bhi ye hi hita ha
+
+ Qootation tag <q>hello</q> inverted qomas 
+
+align="center" <h align="center> </h> 
+align= "left"
+align= "justify"  ye text tag me istamal hoti hh or is jo lagane se text wali line seed me brabar ho jati hhh
+
+Super scipt text 15<sup> th </sup> ye tag lagane se 15th ka th uper a jay gae 
+
+Sub scrip tag (H2O) H<sub>2</sub>O ye tag lagane se 2 neeche a jay ga or jis ko neecha laan ho ga wo tag k darmiyan ay gi or baki value tag k bad
+
+Break tag <br/> ye next line k liys use hota ha agar do ba ye tag lgayvjaay to <Br/><Br/> to ik line or skip jo jay gi
+
+Non breakable space &nbsp; iska matlb ha  ik space  agra ye tag do bar likhe ge to space zaida ho jay gi.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+               FONT TAG
+color change krny k liye <font color="red"> helooo</font>
+
+size set keny kliye <font size"1 to7"></font>
+
+<strong>hello</strong> ye tag lgane se ye dark ho jaye like heading
+
+<em>hello </em> writing change ho jaye gi
+
+<mark>hello</mark> is se text highligh ho jata ha
+
+<font face="arial"></font> ye use kya jata font(text writing) change karny k liye
+facw="arial, verdana"  agar kisi k system me arial font nhi ha to wo check kry ga verdana ha agr hua to verdana lag jay ga or ap isme jitny chaye font(arial) add krdo or jo ham ne font add kiye han is me se koi bhi us k system me nhi ha to jo bhi us browser ka default font ho ga wo lag jay ga.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                      LISTING TAGS
+UNORDER LIST(.)                          ORDER LIST(1)
+.Orange               :               1.Orange
+.Banana               :              2.Banana
+.Apple                :              3.Apple
+.Grapes               :              4.Grapes 
+
+unorder list k liye <ul>:  order list k liye<ol></ol> ye tsg lage ga isme bhi har list k liye <li> tag istamal
+</ul>                   :  hota ha. Is me value 1.apple is tarah aygi1 ki jaga a likhe k liye <ul tupe="a"
+har list bananty k liye :  is se a.apple is tarah ay gi roman laguage me likhe k liye type="I" is se bari roman counting
+alag tag chaiye hota ha:   ay gi or small i se small. 1 likhne se counting or agar ap chate haa k counting 3 se start ho
+jis ka name ha <li>:       to  <ul start="3" 3 abc me c se to 3
+orange</li>
+<li>apple</li>
+ye value show gi
+.apple iska dot(.)
+karny change krny k  
+liye <ul type="square,
+disc, circle> </ul>
+ye 3  a sakti hh
+-----------------------------------------------------------------------------------------------------------------------------------
+    DESCRIPTION LIST <dl></dl>
+<dt> heading</dt> ye heading k lite istamal hoti hh
+<dd>paragraph </dd> ; ye  paragraph likhne ya jo bhi ap likhna chate hnn
+---------------------------------------------------------------------------------------------------------------------------------
+   MARQUEE TAG
+<marquee>behavior"scroll , alternate , slide </marquee>
+scrollamount="15" ye speed fast or slow k liye hota h
+direction="left, right , up , down
+loop="4"   is se ye sirf do bar chale ga bs
+bgcolor="yello" is se color changee ho jata hh
+width=20%  iss se ye screen ke 20% jaga pr chale g
+-------------------------------------------------------------------------------------------------
+             bgcoloer-"green"
+<body bgcolor="green>
+      </body> 
+bgcolor ik property ha jis se background color cHANGE HO JA TA
+----------------------------------------------------------------------------------------------------
+pre tag   <pre> hello                world  </pre> ye tag lagane se jitni mazezi space di ja sakti hh
+
+agr paaragraph ka color change larna hoto <p style=color:blue></P>
+>-------------------------------------------------------------------------------------------------------------------------------------------------
+                  IMAGE TAG
+<img src="images/ali.jpg" title="maluk> alt="images of maluk>" width="200px"/>
+src means image ki location .jpg means image ki properties me ja kr check krna wahn pr har image ka diya hota ha
+alt isliye use ha k jab koi search engine me ap ki file k mutaliq type kre to usse ye bhi show jo alt me likha ha
+width image ko chota bara karny k liye istamal hota ha or height bhi  px means pixel
+title means k jab image k ooper cursor rakhen ge tab ap ne jo title diya ho ga wo show ho ga
+=-------------------------------------------------------------------------------------------------------------------------------------------------
+                ANCHOR tag
+anchor page dosry page k sath link kaarny k liye hota ha
+
+<a href="listing.html" target="blank",self> go to another page</a>
+href dosrii file ka name likhne k liye use hota ha
+target blank se page new tab me open hota ha 
+go to another page matlb k ye link ha jis pe click kar dosry page me janna ha
+-----------------------------------------------------------------------------------
+<blockquote cite="htttps.html
+</blockquote>
+---------------------------------------------------------------------------------------------------------------------------------
+             ANCHOR TAG 2
+YE TAG USI PAGE ME LINK BANNAY K LIYE USE HOTA HA
+<a href="#link one"> goto link one</a>  ;;  ye tag link banany k liye istamal hoga 
+<a name="link one</a> ye tag waha likha jau ga jaha se link open hoga
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+            MAILTO TAG
+<a href="mailto:ibrahim1567882gmail.com? cc ibrahim156788@gmail.com & subject=hello world & body= EssAY WRITING">contact us</a>
+mailto emiao adress add keny k liye hota ha
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+              TABLE TAG
+<table bgcolor="pink" cellpadding="10px" cellspacing"20px" width"10"
+<caption> hello</caption>
+<tr> 
+<td>A vndfjngjnvkjdvjndfkjvndfjkvjdfnvkjdfnvjdfnvkjdfvjd </td>
+<td>B  vfdlvmfdvnjdfmvmdkmvdfmvmdfkvmdfmvkfdvkdmvkdmvd></td>
+</tr>
+<tr>
+<td>C djncjdshuisdhvhdvdjnvjnvjdvdviod </td>
+<td>D knjdvjkdnvncjnjnvjfdnvdvndvff </td>
+
+</tr>
+ </table>
+rowspan="2"   isse 2 row mergw ho jati hnn
+colspan="2"    isse 2 column merge ho jaty hnn

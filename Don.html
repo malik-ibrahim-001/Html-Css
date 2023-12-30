@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maluk</title>
+        <style>
+         
+        p{
+            margin-top: 0;
+            margin-bottom: 0;
+            font-family: arial;
+        }
+            .pic{
+           width: 140px ;
+           height: 150px;
+           object-fit: cover;
+           margin-bottom: 6px;
+            }.th{
+                width: 26px;
+                object-fit: cover;
+                border-radius: 13px;
+                display: inline-block;
+                
+            }.row{
+                display: grid;
+                grid-template-columns: 26px 1fr;
+                align-items: center;
+                margin-bottom: 8px;
+                margin-left: 8px;
+                }.ali{
+                font-size: 14px;
+                font-weight: bold;
+                margin-bottom: 8px;
+                margin-left: 10px;
+            }.mutual{ 
+             font-size: 12px;
+             color: rgb(96, 96, 96);
+             display: inline-block;
+            margin-left: 6px;
+            }.b{
+                background-color: rgb(0, 102, 255);
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 13px;
+                padding-right: 13px;
+                border: none;
+                border-radius: 3px;
+                color: white;
+                margin-bottom: 6px;
+                margin-left:8px;
+            }.di{
+                box-shadow: 0 1px 5px rgba(0 ,0 ,0 ,0.25);
+                width: 140px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="di">
+            <div class="profile-pic">
+                <img class="pic" src="picture/Ali.jpeg">
+
+                <p class="ali">Ali</p>
+            </div>
+            <div class="row">
+                
+                
+                <img src="picture/channel-2.jpeg" class="th">
+
+                <p class="mutual">2 mutual friends</p>
+            
+            </div>
+            <div class="q">
+                <button class="b">Add Friend</button>
+            </div>
+        </div>
+    </body>
+</html>
